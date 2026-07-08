@@ -4,7 +4,7 @@ A machine learning project that classifies near-Earth asteroids as hazardous or 
 
 Live app: https://huggingface.co/spaces/Rozina66/neo-hazard-predictor6
 
-Overview
+# Overview
 
 This project covers the full pipeline from raw data to a deployed, interactive application:
 
@@ -19,7 +19,7 @@ Deployment — the final model deployed as an interactive web application on Hug
 
 The goal was to build a model that is both accurate and interpretable, and to take it beyond the notebook stage into a usable, deployed application.
 
-Features used
+# Features used
 
 
 Estimated minimum diameter (km)
@@ -29,7 +29,7 @@ Miss distance (km)
 Absolute magnitude (H)
 
 
-Project structure
+# Project structure
 
 neo-hazard-predictor/
 ├── README.md
@@ -41,16 +41,16 @@ neo-hazard-predictor/
 │   ├── scaler.pkl
 │   └── requirements.txt
 
-Running locally
+# Running locally
 
 pip install -r app/requirements.txt
 python app/app.py
 
-Tech stack
+# Tech stack
 
 Python, scikit-learn, XGBoost, SHAP, Gradio, pandas, NumPy
 
-Screenshots
+# Screenshots
 <img width="3866" height="768" alt="neo_predictor_linkedin" src="https://github.com/user-attachments/assets/2eb672a3-f901-493d-8e51-f299d573db42" />
 
 Not hazardous result and hazardous result shown side by side below.
