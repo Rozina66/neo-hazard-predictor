@@ -22,8 +22,7 @@ The goal was to build a model that is both accurate and interpretable, and to ta
 Features used
 
 
-Estimated minimum diameter (km)<img width="3866" height="768" alt="neo_predictor_linkedin" src="https://github.com/user-attachments/assets/73976bee-872d-4779-8b85-9a72ad52d313" />
-
+Estimated minimum diameter (km)
 Estimated maximum diameter (km)
 Relative velocity (km/h)
 Miss distance (km)
@@ -50,3 +49,8 @@ python app/app.py
 Tech stack
 
 Python, scikit-learn, XGBoost, SHAP, Gradio, pandas, NumPy
+
+Screenshots
+<img width="3866" height="768" alt="neo_predictor_linkedin" src="https://github.com/user-attachments/assets/2eb672a3-f901-493d-8e51-f299d573db42" />
+
+Not hazardous result and hazardous result shown side by side below.
